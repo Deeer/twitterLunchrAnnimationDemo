@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         transform.values = [initalBounds,secoundBounds,finalBounds]
         transform.keyTimes = [0 ,0.4,1]
         transform.timingFunctions = [CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut),CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)]
-        transform.removedOnCompletion = false
+//        transform.removedOnCompletion = false
         transform.fillMode = kCAFillModeForwards
         masklayer.addAnimation(transform, forKey:"maskAnimation")
         
